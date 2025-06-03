@@ -192,7 +192,7 @@ public class PlayerController : MonoBehaviour
                 break;
             case 3:
             //Hallway to Bathroom
-                _Player.position = new Vector3(-3.40f, -6.86f, 0);
+                _Player.position = new Vector3(-3.64f, -7.43f, 0);
                 break;
             case 4:
             //SampleScene to Hallway

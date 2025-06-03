@@ -39,6 +39,13 @@ MonoBehaviour:
     m_Localized: Try to solve the farm's problem
     m_Metadata:
       m_Items: []
+  - m_Id: 13396952614776832
+    m_Localized: This chart defines what actions will be taken on site; depending
+      on what you decide, the "Success Percentage" will be higher or lower; choose
+      wisely; You have a limited "budget" you can use; each option costs a certain
+      amount of money and brings a percentage of success or failure.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

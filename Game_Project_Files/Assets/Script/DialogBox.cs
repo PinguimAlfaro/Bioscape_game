@@ -139,6 +139,9 @@ public class DialogBox : MonoBehaviour
     {
         _CanPlay = true;
     }
-
+    private void OnDisable()
+    {
+        _CanPlay = true;
+    }
 
 }

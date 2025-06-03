@@ -1,0 +1,6 @@
+-232 -397 0.1355346 - Aperte espaço
+
+-260 -14.638 0.1355346 - Texto
+
+927 314 - Caixa de tetxto
+

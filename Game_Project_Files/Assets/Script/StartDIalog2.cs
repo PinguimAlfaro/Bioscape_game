@@ -23,6 +23,8 @@ public class StartDialog2 : MonoBehaviour
     private List<GameObject> _dialogs;
     private List<GameObject> _buttons;
 
+    public bool _Pressed;
+
 
     void Start()
     {
@@ -30,7 +32,7 @@ public class StartDialog2 : MonoBehaviour
         // Adiciona os botões à lista para facilitar o gerenciamento
         _buttons = new List<GameObject> { Op1, Op2, Op3, Op4, Op5, Op6 };
         _dialogs = new List<GameObject> { Dialog1, Dialog2, Dialog3, Dialog4, Dialog5, Dialog6 };
-        ActiveButton();
+
     }
     private void Update()
     {
@@ -41,17 +43,40 @@ public class StartDialog2 : MonoBehaviour
     {
         foreach (var btn in _buttons)
         {
-            if (btn != clickedButton)
+            if (btn != null)
             {
-                btn.SetActive(false);
+
+                if (btn != clickedButton)
+                {
+                    btn.SetActive(false);
+                    _Pressed = true;
+                }
             }
         }
+
     }
     public void ActiveButton()
     {
         foreach (var btn in _buttons)
         {
-            btn.SetActive(true);
+            if (btn != null)
+            {
+                btn.SetActive(true);
+                _Pressed = false;
+            }
+
+        }
+
+    }
+    public void DesactiveButton()
+    {
+        foreach (var btn in _buttons)
+        {
+            if (btn != null)
+            {
+                btn.SetActive(false);
+            }
+
         }
 
     }

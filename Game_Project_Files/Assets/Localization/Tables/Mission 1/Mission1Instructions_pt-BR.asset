@@ -39,6 +39,14 @@ MonoBehaviour:
     m_Localized: "Tente resolver o problema da fazenda\r"
     m_Metadata:
       m_Items: []
+  - m_Id: 13396952614776832
+    m_Localized: "Esse quadro define que a\xE7\xF5es v\xE3o ser tomadas no local;
+      dependendo do que voc\xEA decidir a \u201CPorcentagem de sucesso\u201D ser\xE1
+      mais alta ou mais baixa; escolha com sabedoria; Voc\xEA tem um limite de \u201Cor\xE7amento\u201D
+      que pode usar; cada op\xE7\xE3o custa  uma quantidade de dinheiro e traz uma
+      porcentagem de sucesso ou falha"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

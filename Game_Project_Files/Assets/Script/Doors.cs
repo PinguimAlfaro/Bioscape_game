@@ -193,7 +193,10 @@ public class Doors : MonoBehaviour
 
     public void NewScene(string _Level) //scene loader
     {
-        SceneManager.LoadScene(_Level);
+        SceneManager.LoadScene(_level);
+        if (_level == "SampleScene")
+        { PlayerController.playercontroller.GetValues(1); }
+
     }
     public void SaveLevel(){
          PlayerPrefs.SetString("__Level",_level);
